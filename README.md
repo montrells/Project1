@@ -28,7 +28,7 @@ __After this workshop, developers should have__
 
 <!--10:35 5 minutes -->
 <!-- This is already done from last class, except for "make board public" -->
-## User Stori
+## User Story
 ### Sign up for Trello
 1. Go to [www.trello.com](www.trello.com).
 2. Click ``Get Started``.
