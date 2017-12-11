@@ -30,8 +30,5 @@ __After this workshop, developers should have__
 <!-- This is already done from last class, except for "make board public" -->
 ## User Story
 ### Sign up for Trello
-1. Go to [www.trello.com](www.trello.com).
+1. Go to [https://trello.com/b/JJMKxMlb/project1](www.trello.com).
 2. Click ``Get Started``.
-3. Enter in a username, email, and password.
-4. Click `create a new board`.
-5. Make the board public by clicking on the lock icon to the right of the title.
