@@ -8,7 +8,7 @@
 
 ## Why is this important?
 
-__This project is important because:__
+__This lab is important because:__
 
 Well-planned projects are easier to implement. By spending some time working on how you'll work through a 
 project you can often finish a project easier.
@@ -17,10 +17,10 @@ project you can often finish a project easier.
 
 __After this workshop, developers should have__ 
 
-* **Completed** cards outlining the user stories to complete their project
-* **Completed** wireframe of their project.
-* **Prioritized** stories for their project.
-* **Created** a README to help outline the technical aspects of their project.
+* **Completed** create a Game board
+* **Completed** Add a background to the game board
+* **Prioritized** create character
+* **Created** keep track of characters
 
 <!--10:47 -->
 <!--Doing tic-tac-toe stories here -->
@@ -28,7 +28,7 @@ __After this workshop, developers should have__
 
 <!--10:35 5 minutes -->
 <!-- This is already done from last class, except for "make board public" -->
-## User Stories 
+## User Stori
 ### Sign up for Trello
 1. Go to [www.trello.com](www.trello.com).
 2. Click ``Get Started``.
