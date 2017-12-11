@@ -1,6 +1,6 @@
 # Project1
 
-# Game for Project 1
+# JUMP! Game for Project 1
 
 <!--Second time 10:45, but didn't do tic-tac-toe priority and sizing yet, so added in right after opening -->
 <!--WDI5 10:35 -->
