@@ -1,6 +1,6 @@
 # Project1
 
-# JUMP! Game for Project 1
+# MATCH! Game for Project 1
 
 <!--Second time 10:45, but didn't do tic-tac-toe priority and sizing yet, so added in right after opening -->
 <!--WDI5 10:35 -->
@@ -19,12 +19,12 @@ __After this workshop, developers should have__
 
 * **Completed** create a Game board
 * **Completed** Add a background to the game board
-* **Prioritized** create character
-* **Created** keep track of characters
+* **Prioritized** create Images for game
+* **Created** keep track of user progress
 
-<!--10:47 -->
-<!--Doing tic-tac-toe stories here -->
-<!--10:58 after tic-tac-toe-->
+
+
+
 
 <!--10:35 5 minutes -->
 <!-- This is already done from last class, except for "make board public" -->
