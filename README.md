@@ -1,6 +1,6 @@
 # Project1
 
-# GOOFIE FRUITY FUNPANTS!!
+# GOOFIE FRUITY FUNPANTS!! (the game of MATCH)
 
 ## Why is this important?
 Because I am working on it!
