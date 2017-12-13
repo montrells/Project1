@@ -30,5 +30,5 @@ __After this workshop, developers should have__
 <!-- This is already done from last class, except for "make board public" -->
 ## User Story
 ### Trello
-1. Go to [https://trello.com/b/JJMKxMlb](www.trello.com).
+1. Go to https://trello.com/b/JJMKxMlb
 2. Click ``Get Started``.
