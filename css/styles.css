@@ -13,21 +13,15 @@
 
 }
 
-#Won{                  /*positioning the you won div*/
+#Won { /*positioning the you won div*/
     width: 450px;
     height: 450px;
     position: relative;
 
     text-align: center;
-    display: table-cell;/*center the you won rectangle*/
+    display: table-cell; /*center the you won rectangle*/
     vertical-align: middle;
-
-
-}
-#bodys{
-
 }
 
-header{
-    margin:30px;
-}
+
+
