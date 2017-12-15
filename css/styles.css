@@ -17,12 +17,17 @@
     width: 450px;
     height: 450px;
     position: relative;
-    visibility: hidden; /*hidden at the start*/
+
     text-align: center;
     display: table-cell;/*center the you won rectangle*/
     vertical-align: middle;
 
+
 }
 #bodys{
 
+}
+
+header{
+    margin:30px;
 }

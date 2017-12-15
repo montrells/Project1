@@ -7,8 +7,8 @@ function goofieFruityFunpants() {  //making a kind of object out of this program
 
     this.sizeOfCard = 150; //created a variable of the size parameter inside the function
     this.cardSpacing = 10; //same way below
-    this.gameWidth = 5;
-    this.gameHeight = 5;
+    this.gameWidth = 2;
+    this.gameHeight = 2;
     this.card1 = null;
     this.card2 = null;
     this.timeOut =null;
@@ -113,7 +113,10 @@ function goofieFruityFunpants() {  //making a kind of object out of this program
     }
 
     this.won=function(){
-        document.getElementById("Won").style.visibility = "visible"; //Style visibility shown only after the win
+        var visible = document.getElementById("Won").style.visibility = "visible"; //Style visibility shown only after the win
+        //visible.style.position("absolute");
+       // visible.style.left("150px");
+        //visible.style.top("150px");
     }
 
     this.playSound=function(fileName) {
