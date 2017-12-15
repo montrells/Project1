@@ -1,19 +1,55 @@
+/*
+*--------------------------------------------------------------------------------------------------------
+*                                GOOFIE_FRUITYPANTS
+*                                ZEB- INSPIRE;
+*                                JOE- ENFORCES;
+*
+* */
+
+
+
+
 montrellGame =goofieFruityFunpants(); //calling the game
 
 function goofieFruityFunpants() {  //making a kind of object out of this program with "this" changed all the named functions /Thus calling everything as a single function
     this.goofieDiv = document.getElementById("GOOFIE_FRUITY_FUNPANTS")//GOOFIE_FRUITY_FUNPANTS is now stored in goofieDiv
 
 //goofieDiv.innerHTML = "Hello World!"; //now goofieDiv is calling innerHTML method to display "Hello World"
+    /*
+    * ---------------------------------------------------------------------------------------------------
+    *
+    *                                  8 PROPERTIES
+    *
+    *
+    *
+    *
+    * */
 
     this.sizeOfCard = 150; //created a variable of the size parameter inside the function
     this.cardSpacing = 10; //same way below
-    this.gameWidth = 2;
-    this.gameHeight = 2;
+    this.gameWidth = 4;
+    this.gameHeight = 4;
     this.card1 = null;
     this.card2 = null;
     this.timeOut =null;
     this.match = 0;
 
+
+    /*
+   * -----------------------------------------------------------------------------------------------------
+   *                                         FUNCTIONS
+   *                                   1*goofieFruityFunpants()= the object
+   *
+   *                                   ---------------encapsulated--------------------
+   *
+   *                                   1*gridCreation =Draws out the grid //called at the end of the program
+   *                                   2*createCard() =Creates and Position cards/ beautify
+   *                                   3*cardClicking() = Detects events
+   *                                   4*checkCardsWait() =delays the cardClicking function 1 second
+   *                                   5*won()          =Displays you won after a win
+   *
+   * ----------------------------------------------------------------------------------------------------
+   * */
 
 
 
@@ -47,6 +83,7 @@ function goofieFruityFunpants() {  //making a kind of object out of this program
     cardCreate(4,1,0);    //card, x, y
     cardCreate(5,1,1);
     ------------------------------------------------------------*/
+
 
 //put this code inside a function called cardCreation
     this.cardCreate=function(cardNumber, positionX, positionY) {
@@ -118,12 +155,12 @@ function goofieFruityFunpants() {  //making a kind of object out of this program
        // visible.style.left("150px");
         //visible.style.top("150px");
     }
-
+/*
     this.playSound=function(fileName) {
         var audio = new Audio(fileName);
         audio.play();
 
-    }
+    }*/
     //calling the grid to make # of rows and # of columns
     this.gridCreation(gameWidth,gameHeight);
 
