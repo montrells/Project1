@@ -11,10 +11,12 @@
 
 montrellGame =goofieFruityFunpants(); //calling the game
 
+
+
 function goofieFruityFunpants() {  //making a kind of object out of this program with "this" changed all the named functions /Thus calling everything as a single function
     this.goofieDiv = document.getElementById("GOOFIE_FRUITY_FUNPANTS")//GOOFIE_FRUITY_FUNPANTS is now stored in goofieDiv
 
-//goofieDiv.innerHTML = "Hello World!"; //now goofieDiv is calling innerHTML method to display "Hello World"
+//goofieDiv.innerHTML = "Hello World!"; //now goofieDiv is calling innerHTML method to display "Hello World" //TESTING
     /*
     * ---------------------------------------------------------------------------------------------------
     *
@@ -161,6 +163,10 @@ function goofieFruityFunpants() {  //making a kind of object out of this program
         audio.play();
 
     }*/
+
+
+
+
     //calling the grid to make # of rows and # of columns
     this.gridCreation(gameWidth,gameHeight);
 
