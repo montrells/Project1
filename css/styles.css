@@ -22,6 +22,10 @@
     display: table-cell; /*center the you won rectangle*/
     vertical-align: middle;
 }
+body{
+
+    background-repeat:no-repeat;
+}
 
 
 
